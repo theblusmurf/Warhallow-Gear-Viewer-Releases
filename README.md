@@ -2,13 +2,13 @@
 
 Installers and automatic app updates for **Pote Gear Viewer**, a Windows 3D viewer for designing weapon and armour sets for Warhallow (PotE).
 
-Download `PoteGearViewer-win-Setup.exe` from the latest release. Once it's installed, the app updates itself from this repository.
+Download `PoteGearViewer-win-Setup.exe` from the latest release. Once it's installed, the app checks this repository for new versions. When one is available, it asks you before downloading it and restarting. Update checks don't need a GitHub token.
 
 ## What is (and isn't) here
 
 - **Here:** the viewer application only, as an installer, a portable zip and Velopack update packages.
 - **Not here:** no game files, models, textures or game data. On first run the viewer reads models from **your own installed game client**, without modifying it, and builds its data on your PC.
-- **Game-data pack:** the viewer also needs a small game-data pack, which is distributed separately through a private repository. Ask the project owner for access and a read-only GitHub token, then add it in the app (Pote menu > Set GitHub token).
+- **Game-data pack:** the viewer also needs a small game-data pack, which is distributed separately through a private repository. Ask the project owner how to get access. The setup wizard asks for the GitHub token on first run.
 
 ## Notes
 
