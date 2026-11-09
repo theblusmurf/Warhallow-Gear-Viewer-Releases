@@ -8,7 +8,11 @@ Download `PoteGearViewer-win-Setup.exe` from the latest release. Once it's insta
 
 - **Here:** the viewer application only, as an installer, a portable zip and Velopack update packages.
 - **Not here:** no game files, models, textures or game data. On first run the viewer reads models from **your own installed game client**, without modifying it, and builds its data on your PC.
-- **Game-data pack:** the viewer also needs a small game-data pack, which is distributed separately through a private repository. Ask the project owner how to get access. The setup wizard asks for the GitHub token on first run.
+- **Game-data pack:** the viewer also needs a small game-data pack, kept in the private repository `Warhallow-Gear-Viewer/gear-viewer-data` for members of that organization:
+  1. Ask the project owner to add you to the **Warhallow-Gear-Viewer** organization.
+  2. On github.com, go to Settings > Developer settings > Personal access tokens > Fine-grained tokens > Generate new token.
+  3. Set **Resource owner** to **Warhallow-Gear-Viewer**. Under **Repository access**, choose **Only select repositories** and pick **gear-viewer-data**. Under **Permissions**, set **Contents** to **Read-only**.
+  4. Paste the token into the viewer's setup wizard when it asks. It's stored encrypted on your PC only. Never share it.
 
 ## Notes
 
